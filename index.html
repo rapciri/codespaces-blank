@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>autoria web</title>
   </head>
   <body>
@@ -15,20 +16,38 @@
     <h5>eu amei a aula de hoje!</h5>
     <h6>eu amei a aula de hoje!</h6> -->
 
-      <nav>
+      <nav id="start-sections">
         <ul>
           <li>
-            <a href="#">inicio</a>
+            <a id="start"   href="#">inicio</a>
           </li>
           <li>
-            <a href="sobre.html">sobre</a>
+            <a id="about"   href="sobre.html">sobre</a>
           </li>
           <li>
-            <a
+            <a id="codespace"
               href="https://github.com/rapciri/codespaces-blank"
               target="_blank"
               >github</a
             >
+          </li>
+          
+          
+        </ul>
+      </nav>
+      <nav id="nav-sections">
+        <ul>
+          <li>
+            <a href="#section1">Seção 1</a>
+          </li>
+          <li>
+            <a href="#section2">Seção 2</a>
+          </li>
+          <li>
+            <a href="#section3">Seção 3</a>
+          </li>
+          <li>
+            <a href="#section4">Seção 4</a>
           </li>
         </ul>
       </nav>
@@ -39,7 +58,7 @@
     <!-- main: delimita o conteudo principal da págiina, único por documento, facilitando navegação por leitores de tela -->
     <main>
       <!-- section: seção tematica do documento, geralmente com um titulo proprio  -->
-      <section>
+      <section id="section1">
         <h2>seção 1</h2>
 
         <!-- div: contêiner genérico em bloco, sem significado semântico próprio,útil para agrupamento quando nenhum dos elementos semânticos se aplica -->
@@ -59,7 +78,7 @@
       </section>
       <br />
 
-      <section>
+      <section id="section2">
         <h2>seção 2</h2>
 
         <img src="assets/imgs/gatotriste.jpg" alt="gato triste" />
@@ -72,7 +91,7 @@
         </p>
       </section>
 
-      <section>
+      <section id="section3">
         <h2>seção 3</h2>
         <img src="assets/imgs/caramelo.jpg" alt="cachorro" />
         <ul>
@@ -81,7 +100,7 @@
           <li>fé</li>
         </ul>
       </section>
-      <section>
+      <section id="section4">
         <h2>seção 4</h2>
         <img src="assets/imgs/speed.jpg" alt="streamer ishowspeed" />
         <p>o que aconteçe quando os alunos veem a nota?</p>
