@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap);
-
+@import url(https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap);
 :root {
       --evergreen: #041B15;
       --blue-spruce: #136F63;
@@ -44,4 +44,26 @@ a:hover {
   color:#136F63;
   background-color: var(--turquoise);
   border-radius: 5px;
+}
+
+#body {
+  text-decoration: none;
+  font-weight: bold;
+  color: #84CAE7;
+  background-color: var(--evergreen);
+  border-radius: 5px;
+}
+
+#header {
+   color: #136F63;
+  box-shadow: 0 0 10px var(--evergreen)
+}
+
+#footer {
+ color: #22AAA1;
+  box-shadow: 0 0 10px var(--light-sea-green) 
+}
+
+#titulo-secao {
+  font-family: "Saira Stencil", 'Times New Roman', Times, serif;
 }
