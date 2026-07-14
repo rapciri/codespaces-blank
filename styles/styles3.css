@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Erica+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap);
+:root {
+      --Amber-honey: #ECA400;
+      --Cream: #EAF8BF;
+      --Cerulean: #006992;
+      --Yale-blue: #27476E;
+      --Prussian-blue: #001D4A;
+}
+
+body{
+    background-color: #006992;
+    font-family: "Montenegrin Gothic One";
+}
+
+header {
+    background-color: #27476E;
+    font-family: "Kameron";
+}
+header h1 {
+    color:#ECA400;
+}
+footer {
+    background-color: #001D4A;
+    font-family: "Erica One";
+
+
+}
+footer p {
+    color:#EAF8BF;
+}
+
+section h2.titulo-secao {
+    font-family: "Climate Crisis";
+    color:var(--Amber-honey)
+    
+}
+
+section div.card-programa {
+    background-color: powderblue;
+    border: black;
+    border-radius: 4px;
+}
+
+#inicio {
+    background-color:#27476E
+}
+
+#programacao {
+    border-radius: 8px;
+}
